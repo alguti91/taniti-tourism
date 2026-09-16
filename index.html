@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Explore Taniti and plan your island visit."
+    />
+    <title>Visit Taniti | Home</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="site-header">
+        <a class="brand" href="index.html">Visit Taniti</a
+        ><button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          Menu
+        </button>
+        <nav class="nav" id="main-nav" aria-label="Main navigation">
+          <a href="index.html" aria-current="page">Home</a
+          ><a href="stay.html">Places to Stay</a
+          ><a href="things.html">Things to Do</a><a href="dining.html">Dining</a
+          ><a href="transportation.html">Transportation</a
+          ><a href="info.html">Visitor Information</a>
+        </nav>
+      </header>
+      <section
+        class="hero home"
+        style="background-image: url(&quot;assets/lagoon.jpg&quot;)"
+        aria-label="Discover Taniti"
+      >
+        <div class="hero-panel">
+          <h1>Discover Taniti</h1>
+          <p>
+            Beautiful beaches, tropical rainforests, and unforgettable
+            adventures await
+          </p>
+          <a class="button" href="#plan">Plan Your Trip</a>
+        </div>
+      </section>
+      <main id="plan" class="section">
+        <div class="section-title">
+          <h2>Plan Your Visit</h2>
+          <p>Find everything you need to prepare for your stay on Taniti</p>
+        </div>
+        <div class="cards five">
+          <a
+            class="card linked-card"
+            href="stay.html"
+            aria-label="Explore Places to Stay"
+            ><img
+              src="assets/stay.jpg"
+              alt="Place to stay with poolside lounge chairs"
+              loading="lazy"
+            />
+            <div class="card-body"><h3>Places to Stay</h3></div></a
+          ><a
+            class="card linked-card"
+            href="things.html"
+            aria-label="Explore Things to Do"
+            ><img
+              src="assets/snorkel.jpg"
+              alt="Visitor snorkeling in blue water"
+              loading="lazy"
+            />
+            <div class="card-body"><h3>Things to Do</h3></div></a
+          ><a
+            class="card linked-card"
+            href="dining.html"
+            aria-label="Explore Dining"
+            ><img
+              src="assets/food.jpg"
+              alt="Restaurant meal on a plate"
+              loading="lazy"
+            />
+            <div class="card-body"><h3>Dining</h3></div></a
+          ><a
+            class="card linked-card"
+            href="transportation.html"
+            aria-label="Explore Transportation"
+            ><img
+              src="assets/car.jpg"
+              alt="Car parked near palm trees"
+              loading="lazy"
+            />
+            <div class="card-body"><h3>Transportation</h3></div></a
+          ><a
+            class="card linked-card"
+            href="info.html"
+            aria-label="Explore Visitor Information"
+            ><img
+              src="assets/shell.jpg"
+              alt="Shell overlooking the sea"
+              loading="lazy"
+            />
+            <div class="card-body"><h3>Visitor Information</h3></div></a
+          >
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <span>Visit Taniti</span
+        ><span
+          ><a href="info.html">Visitor Information</a> &nbsp;|&nbsp;
+          <a href="sources.html">About &amp; Credits</a> &nbsp;|&nbsp; © 2026</span
+        >
+      </footer>
+    </div>
+    <script src="app.js" defer></script>
+  </body>
+</html>

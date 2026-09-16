@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Things to Do | Visit Taniti</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="site-header">
+        <a class="brand" href="index.html">Visit Taniti</a
+        ><button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          Menu
+        </button>
+        <nav class="nav" id="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a><a href="stay.html">Places to Stay</a
+          ><a href="things.html" aria-current="page">Things to Do</a
+          ><a href="dining.html">Dining</a
+          ><a href="transportation.html">Transportation</a
+          ><a href="info.html">Visitor Information</a>
+        </nav>
+      </header>
+      <section
+        class="hero things"
+        style="background-image: url(&quot;assets/hero-things.jpg&quot;)"
+        aria-label="Things to Do"
+      >
+        <div class="hero-panel">
+          <h1>Things to Do</h1>
+          <p>Discover beaches, rainforest, and island activities.</p>
+        </div>
+      </section>
+      <main class="section">
+        <div class="section-title">
+          <h2>Explore the Island</h2>
+          <p>Choose an activity and follow its demo booking path</p>
+        </div>
+        <div class="cards three">
+          <article class="card">
+            <img
+              src="assets/lagoon.jpg"
+              alt="Island mountain and lagoon"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <h3>Volcano Visit</h3>
+              <p>Explore Taniti’s active volcano.</p>
+              <a
+                class="button"
+                href="booking.html?type=activity&item=Volcano%20Visit"
+                >View Options</a
+              >
+            </div>
+          </article>
+          <article class="card">
+            <img
+              src="assets/snorkel.jpg"
+              alt="Snorkeler in blue ocean water"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <h3>Snorkeling</h3>
+              <p>Discover the waters around Taniti.</p>
+              <a
+                class="button"
+                href="booking.html?type=activity&item=Snorkeling"
+                >View Options</a
+              >
+            </div>
+          </article>
+          <article class="card">
+            <img
+              src="assets/shell.jpg"
+              alt="Shell beside a tropical sea"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <h3>Beach Day</h3>
+              <p>Spend time on white-sand beaches.</p>
+              <a
+                class="button"
+                href="booking.html?type=activity&item=Beach%20Day"
+                >View Options</a
+              >
+            </div>
+          </article>
+        </div>
+        <div class="details">
+          <h2>More to Explore</h2>
+          <p>
+            The island also offers rainforest experiences, fishing, zip-lining,
+            helicopter rides, a history museum, art galleries, nightlife, an
+            arcade, and bowling.
+          </p>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <span>Visit Taniti</span
+        ><span
+          ><a href="info.html">Visitor Information</a> &nbsp;|&nbsp;
+          <a href="sources.html">About &amp; Credits</a> &nbsp;|&nbsp; ©
+          2026</span
+        >
+      </footer>
+    </div>
+    <script src="app.js" defer></script>
+  </body>
+</html>

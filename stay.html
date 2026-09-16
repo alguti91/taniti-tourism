@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Places to Stay | Visit Taniti</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="site-header">
+        <a class="brand" href="index.html">Visit Taniti</a
+        ><button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          Menu
+        </button>
+        <nav class="nav" id="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a
+          ><a href="stay.html" aria-current="page">Places to Stay</a
+          ><a href="things.html">Things to Do</a><a href="dining.html">Dining</a
+          ><a href="transportation.html">Transportation</a
+          ><a href="info.html">Visitor Information</a>
+        </nav>
+      </header>
+      <section
+        class="hero stay"
+        style="background-image: url(&quot;assets/hero-stay.jpg&quot;)"
+        aria-label="Places to Stay"
+      >
+        <div class="hero-panel">
+          <h1>Places to Stay</h1>
+          <p>Find accommodation that fits your visit.</p>
+        </div>
+      </section>
+      <main class="section">
+        <div class="section-title">
+          <h2>Find Your Stay</h2>
+          <p>Compare options before starting a demo booking</p>
+        </div>
+        <div class="cards three">
+          <article class="card">
+            <img
+              src="assets/stay.jpg"
+              alt="Poolside lounge chairs at a hotel"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <h3>Family Hotel</h3>
+              <p>Hotel accommodation for a family visit.</p>
+              <a
+                class="button"
+                href="booking.html?type=stay&item=Family%20Hotel"
+                >View Options</a
+              >
+            </div>
+          </article>
+          <article class="card">
+            <img
+              src="assets/lagoon.jpg"
+              alt="Tropical lagoon with resort buildings"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <h3>Four-Star Resort</h3>
+              <p>The island has one four-star resort.</p>
+              <a
+                class="button"
+                href="booking.html?type=stay&item=Four-Star%20Resort"
+                >View Options</a
+              >
+            </div>
+          </article>
+          <article class="card">
+            <img
+              src="assets/shell.jpg"
+              alt="Seaside shell and ocean"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <h3>Budget Hostel</h3>
+              <p>An inexpensive accommodation option.</p>
+              <a
+                class="button"
+                href="booking.html?type=stay&item=Budget%20Hostel"
+                >View Options</a
+              >
+            </div>
+          </article>
+        </div>
+        <div class="details">
+          <h2>Other Options</h2>
+          <p>
+            Taniti also has bed-and-breakfasts and privately rented homes.
+            Lodging ranges from a hostel to the four-star resort, and all
+            lodging is regulated and inspected by the Tanitian government.
+          </p>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <span>Visit Taniti</span
+        ><span
+          ><a href="info.html">Visitor Information</a> &nbsp;|&nbsp;
+          <a href="sources.html">About &amp; Credits</a> &nbsp;|&nbsp; ©
+          2026</span
+        >
+      </footer>
+    </div>
+    <script src="app.js" defer></script>
+  </body>
+</html>

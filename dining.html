@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dining | Visit Taniti</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="site-header">
+        <a class="brand" href="index.html">Visit Taniti</a
+        ><button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          Menu
+        </button>
+        <nav class="nav" id="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a><a href="stay.html">Places to Stay</a
+          ><a href="things.html">Things to Do</a
+          ><a href="dining.html" aria-current="page">Dining</a
+          ><a href="transportation.html">Transportation</a
+          ><a href="info.html">Visitor Information</a>
+        </nav>
+      </header>
+      <section
+        class="hero dining"
+        style="background-image: url(&quot;assets/restaurant.jpg&quot;)"
+        aria-label="Dining"
+      >
+        <div class="hero-panel">
+          <h1>Dining</h1>
+          <p>Explore restaurants and local food on Taniti</p>
+        </div>
+      </section>
+      <main class="section">
+        <div class="section-title">
+          <h2>Explore Taniti’s Cuisine</h2>
+          <p>Taniti offers ten restaurants across three categories</p>
+        </div>
+        <div class="cards three">
+          <article class="card">
+            <img
+              src="assets/local.jpg"
+              alt="Fish and rice meal"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <h3>Local Cuisine</h3>
+              <p>5 restaurants</p>
+              <p>Fish and rice</p>
+              <a class="button" href="#local">View Options</a>
+            </div>
+          </article>
+          <article class="card">
+            <img
+              src="assets/american.jpg"
+              alt="Steak with fries and salad"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <h3>American Cuisine</h3>
+              <p>3 restaurants</p>
+              <p>American-style meals</p>
+              <a class="button" href="#american">View Options</a>
+            </div>
+          </article>
+          <article class="card">
+            <img
+              src="assets/asian.jpg"
+              alt="Assorted dumplings"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <h3>Pan-Asian Cuisine</h3>
+              <p>2 restaurants</p>
+              <p>Pan-Asian meals</p>
+              <a class="button" href="#asian">View Options</a>
+            </div>
+          </article>
+        </div>
+        <div class="details" id="local">
+          <h2>Local Cuisine</h2>
+          <p>Five restaurants serve local fish and rice dishes.</p>
+        </div>
+        <div class="details" id="american">
+          <h2>American Cuisine</h2>
+          <p>Three restaurants serve American-style meals.</p>
+        </div>
+        <div class="details" id="asian">
+          <h2>Pan-Asian Cuisine</h2>
+          <p>Two restaurants serve Pan-Asian cuisine.</p>
+        </div>
+        <div class="details">
+          <h2>Groceries and Markets</h2>
+          <p>
+            Two supermarkets, two smaller grocery stores, and one 24-hour
+            convenience store are available.
+          </p>
+          <p>Alcohol sales are unavailable between midnight and 9:00 a.m.</p>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <span>Visit Taniti</span
+        ><span
+          ><a href="info.html">Visitor Information</a> &nbsp;|&nbsp;
+          <a href="sources.html">About &amp; Credits</a> &nbsp;|&nbsp; © 2026</span
+        >
+      </footer>
+    </div>
+    <script src="app.js" defer></script>
+  </body>
+</html>
